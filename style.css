@@ -1,12 +1,36 @@
 *{
+    text-decoration: none;
     padding: 0%;
     margin: 0%;
 }
+body{
+    margin-bottom: 10000px;
+}
+.modal{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    z-index: 10;
+    position: absolute;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+input{
+    margin-bottom: 10px;
+}
+label{
+    width: 70%;
+}
+#checkbox{
+    display: block;
+}
 .container{
-    margin-top: 80px;
-    text-align: center;
+    margin-top: 50px;
+    /* text-align: center; */
 }
 .blueTag{
+    margin-left: 20px;
     text-align: left;
     display: inline-block;
     /* float: left; */
@@ -15,22 +39,174 @@
     width: 40%;
 }
 h1{
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
-h2{
+.slider h2{
+    color: black;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 10px;
+    text-align: center;
 }
 p{
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
 }
-img{
+.stats{
+    border-radius: 36px;
+    width: 60%;
+    /* height: calc(100% - 6px); */
+    display: block;
+    margin: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.slider{
+    padding: 5px;
+    font-size: 0;
+    /* width: 50%; */
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.sliderButton{
+    vertical-align: top;
+    width: 30%;
+    display: inline-block;
+    white-space: normal;
+}
+.imageBorder{
+    overflow: hidden;
+    border-radius: 100px;
+    height: 41px;
+    width: 41px;
+    background-color: cadetblue;
+}
+.avatar{
+    margin-right: 10px;
     height: 50%;
-    border-radius: 500px;
+    border-radius: 100%;
     vertical-align: middle;
     width: 50%;
     /* float: right; */
+}
+.quest{
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(185, 214, 217);
+}
+.red{
+    font-size: 35px;
+    color: rgb( 217, 82, 34);
+}
+.green{
+    font-size: 30px;
+    color: rgb(160, 170, 37);
+}
+.newred{
+    color: rgb( 217, 82, 34);
+}
+.newgreen{
+    color: rgb(160, 170, 37);
+}
+.answers{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* box-sizing: border-box; */
+    display: block;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 20px;
+    text-align: left;
+    padding-left: 30px;
+}
+h3{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+.answers span{
+    font-size: 14px;
+    text-align: right;
+    margin-left: 50px;
+}
+.helen{
+    background-color: rgb(185, 214, 217);
+    position: relative;
+}
+.photo{
+    float: right;
+    margin-left: 30%;
+    width: 80%;
+}
+.cloud{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    top: 60px;
+    position: absolute;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.388);
+    width: 180px;
+    border-radius: 100%;
+}
+.roses{
+    display: block;
+    margin-left: 20%;
+    width: 60%;
+    margin-bottom: 20px;
+}
+.helen p:not(.cloud){
+    text-align: center;
+    margin-left: 10%;
+    font-size: 17px;
+    top: 320px;
+    position: absolute;
+    width: 80%;
+    display: inline-block;
+}
+.bestSides {
+    padding: 0 40px;
+    font-size: larger;
+    display: block;
+    /* margin-bottom: 15px; */
+}
+.consult{
+    padding: 20px;
+}
+.consult li{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.consult h2{
+    font-size: 22px;
+    text-align: center;
+}
+.consult h3{
+    color: black;
+}
+.consult img{
+    width: 50px;
+    display: block;
+    float: left;
+}
+.consult p{
+    padding-left: 5px;
+    box-sizing: border-box;
+    line-height: 25px;
+    width: calc(100% - 50px);
+    float: right;
+}
+.orange{
+    color: rgb( 217, 82, 34);
+}
+.forma a{
+    font-size: 30px;
+    color: black;
 }
